@@ -49,6 +49,6 @@ wss.on("connection", (ws, req) => {
 
 });
 
-server.listen(443, () => {
-  console.log("Server is listening on port 443");
+server.listen(10000, () => {
+  console.log("Server is listening on port 10000");
 });
